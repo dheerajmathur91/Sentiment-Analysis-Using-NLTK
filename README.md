@@ -1,22 +1,30 @@
 # Sentiment-Analysis-Using-NLTK
 
 For setting up environment, follow following steps:
+
 1. Go to the code directory
+
 2. Create virtual environment using: 
 	virtualenv venv_nlp
+
 3. Activate virtal environment using following:
 	. venv_nlp/bin/activate
+
 4. Install requirements:
 	pip install -r requirements.txt
+
 5. Download NLTK data
 	python -m nltk.downloader all
+
 6. Add following to your .bashrc file
- 	export NLTK_DATA="< path to nltk_data >"
+	export NLTK_DATA="< path to nltk_data >"
+
 7. Open sentiment_analysis.py file and change value of response variable at Line 100 to your value
+
 8. Run program using following command:
 	python sentiment_analysis.py
 
-
+	
 It will return whether the response is positive or negative. 
 
 Note: 
